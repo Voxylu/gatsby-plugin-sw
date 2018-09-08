@@ -1,6 +1,6 @@
 {
   "name": "gatsby-plugin-sw",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Similar to gatsby-plugin-offline but you can customize the service worker (e.g. add notifications).",
   "main": "index.js",
   "scripts": {
