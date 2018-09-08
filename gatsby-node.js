@@ -92,7 +92,7 @@ exports.onPostBuild = (args, pluginOptions) => {
   }
 
   return workboxBuild
-    .injectManifest({ swDest, swSrc, ...combinedOptions })
+    .injectManifest({ swDest, swSrc, ...options })
     .then(({ count, size, warnings }) => {
       if (warnings) warnings.forEach(console.warn)
       console.log(

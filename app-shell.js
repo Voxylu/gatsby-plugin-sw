@@ -1,8 +1,8 @@
-import React from "react"
+import React from 'react'
 
 class AppShell extends React.Component {
   render() {
-    return <React.Fragment />
+    return React.createElement(React.Fragment)
   }
 }
 
