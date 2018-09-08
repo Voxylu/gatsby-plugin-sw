@@ -1,0 +1,35 @@
+{
+  "name": "gatsby-plugin-sw",
+  "version": "1.0.0",
+  "description": "Similar to gatsby-plugin-offline but you can customize the service worker (e.g. add notifications).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo no test for now"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Voxylu/gatsby-plugin-sw.git"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "service-worker",
+    "offline",
+    "notifications",
+    "web-push",
+    "pwa",
+    "sw"
+  ],
+  "author": "Voxylu <hello@voxylu.xyz>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Voxylu/gatsby-plugin-sw/issues"
+  },
+  "homepage": "https://github.com/Voxylu/gatsby-plugin-sw#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "lodash": "^4.17.10",
+    "slash": "^2.0.0",
+    "workbox-build": "^3.4.1"
+  }
+}
